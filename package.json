@@ -2,7 +2,7 @@
   "name": "react-test-19.9",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cdoan1.github.io/react-test-19.9",
+  "homepage": "https://cdoan1.github.io/react-test-19.9/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
