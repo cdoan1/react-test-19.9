@@ -43,11 +43,12 @@ jobs:
     # Specify runner + deployment step
     runs-on: macos-latest
     steps:
+      - run: ls -al
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: './build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
