@@ -9,13 +9,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          Make a MR to chnage the static page on the fly!
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React change 1
+          Learn React
         </a>
       </header>
     </div>
